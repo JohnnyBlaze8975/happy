@@ -11,8 +11,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Dazzly Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="keywords" content="Builder Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webDesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -34,6 +34,20 @@ $(function() {
 });
 </script>
 <!-- //gallery -->
+<!-- FlexSlider -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					  </script>
+<!-- //FlexSlider -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -46,8 +60,8 @@ $(function() {
 	});
 </script>
 <!-- start-smoth-scrolling -->
-<link href='//fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 </head>
 	
 <body class="cbp-spmenu-push">
@@ -59,13 +73,11 @@ $(function() {
 ga('create', 'UA-30027142-1', 'w3layouts.com');
   ga('send', 'pageview');
 </script>
-<!-- banner -->
-	<div class="banner">
+<!-- pattern -->
+	<div class="pattern">
 		<div class="container">
-			<div class="header">
-				<div class="logo">
-					<a href="index.html">Fappy.tk</a>
-				</div>
+<!-- header -->
+			<div class="header" id="home">
 				<div class="top-nav">
 					<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
 						<h3>SITES</h3>
@@ -89,6 +101,12 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
                 <li><a target="_blank" href="http://www.tube8.com/">Tube 8</a></li>
                                 
                 <li><a target="_blank" href="http://www.redtube.com/">Redtube</a></li>
+						</ul>
+						<p>© 2015 Builder. Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+						<ul class="button-icons">
+							<li><a href="#" class="twitter"></a></li>
+							<li><a href="#" class="g"></a></li>
+							<li><a href="#" class="v"></a></li>
 						</ul>
 					</nav>
 					<div class="main buttonset">	
@@ -117,557 +135,631 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 					}
 					</script>
 				</div>
+				<div class="logo">
+					<a href="index.html">Fappy.tk<span>Don't Worry Be Happy</span></a>
+				</div>
+				<!-- <div class="phn-number">
+					<ul>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> +0123-567-895</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> <a href="mailto:info@example.com">info@example.com</a></li>
+					</ul>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="twitter"></a></li>
+						<li><a href="#" class="g"></a></li>
+						<li><a href="#" class="v"></a></li>
+					</ul>
+				</div> -->
 				<div class="clearfix"> </div>
 			</div>
-			<div class="banner-info">
-				<!-- <h1>Neque quisquam <span>quidolorem</span></h1>
-				<p>Don't Worry Be Happy</p> -->
-			</div>
-		</div>
-	</div>
-<!-- //banner -->
-<!-- about -->
-	<!-- <div id="about" class="about">
-		<div class="container">
-			<h3>About <span>Me</span></h3>
-			<div class="about-info">
-				<div class="sliderfig">
-					<ul id="flexiselDemo1">			
+<!-- //header -->
+<!-- banner -->
+			<div class="banner">
+				<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
 						<li>
-							<div class="about-info-left">
-								<p><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Quaerat</p>
+							<div class="banner1">
+								<div class="banner-info">
+									<!-- <div class="banner-info1">
+										<h1>sunt in culpa qui officia deserunt mollit anim id</h1>
+									</div> -->
+								</div>
 							</div>
 						</li>
 						<li>
-							<div class="about-info-left">
-								<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Voluptas</p>
+							<div class="banner2">
+								<div class="banner-info">
+									<!-- <div class="banner-info1">
+										<h1>sunt in culpa qui officia deserunt mollit anim id</h1>
+									</div> -->
+								</div>
 							</div>
 						</li>
 						<li>
-							<div class="about-info-left">
-								<p><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Molestiae</p>
-							</div>
-						</li>
-						<li>
-							<div class="about-info-left">
-								<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Aliquam </p>
+							<div class="banner3">
+								<div class="banner-info">
+									<!-- <div class="banner-info1">
+										<h1>sunt in culpa qui officia deserunt mollit anim id</h1>
+									</div> -->
+								</div>
 							</div>
 						</li>
 					</ul>
 				</div>
-					<script type="text/javascript">
-							$(window).load(function() {
-								$("#flexiselDemo1").flexisel({
-									visibleItems: 4,
-									animationSpeed: 1000,
-									autoPlay: true,
-									autoPlaySpeed: 3000,    		
-									pauseOnHover: true,
-									enableResponsiveBreakpoints: true,
-									responsiveBreakpoints: { 
-										portrait: { 
-											changePoint:480,
-											visibleItems: 2
-										}, 
-										landscape: { 
-											changePoint:640,
-											visibleItems:3
-										},
-										tablet: { 
-											changePoint:768,
-											visibleItems: 3
-										}
-									}
-								});
-								
-							});
-					</script>
-					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				</section>
 			</div>
-			<div class="about-grid">
-				<div class="col-md-6 about-grid-left">
-					<img src="images/1.jpg" alt=" " class="img-responsive" />
+<!-- //banner -->
+<!-- banner-bottom -->
+			<!-- <div class="banner-bottom">
+				<h3>Welcome !</h3>
+				<div class="line">
 				</div>
-				<div class="col-md-6 about-grid-right">
-					<h2>vel illum qui dolorem nostrud exercitation ullamco laboris</h2>
-					<h4>aliquidcommodi consequatur</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-						aliquip ex ea commodo consequat.</p>
+				<p class="exercise">To take a trivial example, which of us ever undertakes laborious
+					physical exercise.</p>
+					<div class="welcome-grids">
+						<div class="col-md-4 welcome-grid">
+							<div class="welcome-grd">
+								<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+								<h4>aliquam quaerat voluptatem</h4>
+								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+									amet, consectetur, adipisci velit, sed quia non numquam eius.</p>
+							</div>
+						</div>
+						<div class="col-md-4 welcome-grid">
+							<div class="welcome-grd">
+								<span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+								<h4>aliquam quaerat voluptatem</h4>
+								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+									amet, consectetur, adipisci velit, sed quia non numquam eius.</p>
+							</div>
+						</div>
+						<div class="col-md-4 welcome-grid">
+							<div class="welcome-grd">
+								<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+								<h4>aliquam quaerat voluptatem</h4>
+								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+									amet, consectetur, adipisci velit, sed quia non numquam eius.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+			</div> -->
+<!-- //banner-bottom -->
+<!-- about -->
+			<!-- <div class="about" id="about">
+				<h3>About Us</h3>
+				<div class="line">
 				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> -->
-<!-- //about -->
-<!-- get-in -->
-	<!-- <div class="get-in-grids">
-		<div class="container">
-			<div class="get-in-grid-left">
-				<p>Get In Touch With Us</p>
-			</div>
-			<div class="get-in-grid-right">
-				<form>
-					<input type="text" value="Enter Your Mail..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Mail...';}" required="">
-					<input type="submit" value="Send" >
-				</form>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div> -->
-<!-- services -->
-	<!-- <div id="services" class="services">
-		<div class="container">
-			<h3><span>Our</span> Services</h3>
-			<div class="row work-row">
-				<div class="service-grid">
-					<div class="col-sm-6 col-md-4 work-row-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-						<div class="work-grids-img">
-							<span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
-						</div>	
-						<div class="caption work-captn">
-							<h4>Lorem ipsum</h4>
-							<p>Vero eos et accusamus et iusto odio dignissimos ducimus</p>						
-						 </div>
+				<p class="exercise">To take a trivial example, which of us ever undertakes laborious
+					physical exercise.</p>
+				<div class="about-grids">
+					<div class="col-md-4 about-grid-left">
+						<div class="about-grid-left-grid">
+							<div class="wmuSlider example1">
+							   <div class="wmuSliderWrapper">
+									<article style="position: absolute; width: 100%; opacity: 0;"> 
+										<div class="banner-wrap">
+											<div class="about-grid-left-grid-info">
+												<img src="images/1.png" alt=" " class="img-responsive" />
+												<p>Smith<span>Builder</span></p>
+												<ul>
+													<li><a href="#" class="twitter"></a></li>
+													<li><a href="#" class="g"></a></li>
+													<li><a href="#" class="v"></a></li>
+												</ul>
+											</div>
+										</div>
+									</article>
+									<article style="position: absolute; width: 100%; opacity: 0;"> 
+										<div class="banner-wrap">
+											<div class="about-grid-left-grid-info">
+												<img src="images/2.png" alt=" " class="img-responsive" />
+												<p>Michael<span>Builder</span></p>
+												<ul>
+													<li><a href="#" class="twitter"></a></li>
+													<li><a href="#" class="g"></a></li>
+													<li><a href="#" class="v"></a></li>
+												</ul>
+											</div>
+										</div>
+									</article>
+									<article style="position: absolute; width: 100%; opacity: 0;"> 
+										<div class="banner-wrap">
+											<div class="about-grid-left-grid-info">
+												<img src="images/3.png" alt=" " class="img-responsive" />
+												<p>Albert<span>Builder</span></p>
+												<ul>
+													<li><a href="#" class="twitter"></a></li>
+													<li><a href="#" class="g"></a></li>
+													<li><a href="#" class="v"></a></li>
+												</ul>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+								<script src="js/jquery.wmuSlider.js"></script> 
+									<script>
+										$('.example1').wmuSlider();         
+									</script> 
+						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 work-row-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-						<div class="work-grids-img">
-							<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-						</div>	
-						<div class="caption work-captn">
-							<h4>Lorem ipsum</h4>
-							<p>Vero eos et accusamus et iusto odio dignissimos ducimus</p>						
-						 </div>
-					</div>
-					<div class="col-sm-6 col-md-4 work-row-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-						<div class="work-grids-img">
-							<span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
-						</div>	
-						<div class="caption work-captn">
-							<h4>Lorem ipsum</h4>
-							<p>Vero eos et accusamus et iusto odio dignissimos ducimus</p>						
-						 </div>
-					</div>
-				</div>
-				<div class="service-grid">
-					<div class="col-sm-6 col-md-4 work-row-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-						<div class="work-grids-img">
-							<span class="glyphicon glyphicon-sound-5-1" aria-hidden="true"></span>
-						</div>	
-						<div class="caption work-captn">
-							<h4>ipsumorem</h4>
-							<p>odioero eos et accusamus et iusto dignissimos ducimus</p>						
-						 </div>
-					</div>
-					<div class="col-sm-6 col-md-4 work-row-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-						<div class="work-grids-img">
-							<span class="glyphicon glyphicon-oil" aria-hidden="true"></span>
-						</div>	
-						<div class="caption work-captn">
-							<h4>ipsumorem</h4>
-							<p>odioero eos et accusamus et iusto dignissimos ducimus</p>						
-						 </div>
-					</div>
-					<div class="col-sm-6 col-md-4 work-row-grids wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
-						<div class="work-grids-img">
-							<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-						</div>	
-						<div class="caption work-captn">
-							<h4>ipsumorem</h4>
-							<p>odioero eos et accusamus et iusto dignissimos ducimus</p>						
-						 </div>
+					<div class="col-md-8 about-grid-right">
+						<div class="about-grid-right-grid">
+							<h2>Projects</h2>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit 
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+								occaecat cupidatat non proident.</p>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+								<span class="sr-only">40% Complete (success)</span>
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+								<span class="sr-only">20% Complete</span>
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+								<span class="sr-only">60% Complete (warning)</span>
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								<span class="sr-only">80% Complete (danger)</span>
+							  </div>
+							</div>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+								<span class="sr-only">20% Complete</span>
+							  </div>
+							</div>
+						</div>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-			</div>	
-			<div class="blog-info">
-				<div class="col-md-4 blog-info-left">
-					<div class="blog-info-left1">
-						<h4>fugiat quo voluptas</h4>
-						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-							quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-							voluptas nulla pariatur</p>
-					</div>
-				</div>
-				<div class="col-md-4 blog-info-left">
-					<div class="blog-info-left1">
-						<a href="mailto:info@example.com">info@example.com</a>
-						<p><span>+3728 098 808</span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae.</p>
-					</div>
-				</div>
-				<div class="col-md-4 blog-info-left">
-					<div class="blog-info-left1">
-						<h4>Testimonials</h4>
-						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-							quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-							voluptas nulla pariatur</p>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> -->
-<!-- //services -->
-<!-- events -->
-	<!-- <div id="events" class="events">
-		<div class="container">
-			<h3>News & <span>Events</span></h3>
-			<div class="events-grids">
-				<div class="col-md-4 events-grid">
-					<div class="cal">
-						<img src="images/1.png" alt=" " class="img-responsive" />
-						<div class="cal-info">
-							<h4>molestiae consequatur</h4>
-							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-								voluptas nulla pariatur</p>
+				<div class="video">
+					<div class="video-grid">
+						<div class="video-grid-left">
+							<h3>dolorem eum fugiat quo</h3>
+							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+								esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat 
+								quo voluptas nulla pariatur.</p>
+							<div class="play">
+								<a href="#">Play Video</a>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-4 events-grid">
-					<div class="cal">
-						<img src="images/1.png" alt=" " class="img-responsive" />
-						<div class="cal-info">
-							<h4>molestiae consequatur</h4>
-							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-								voluptas nulla pariatur</p>
+						<div class="video-grid-right">
+							<img src="images/4.jpg" alt=" " />
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
+									<span> </span>
+								</a> -->
+							<!-- pop-up-box -->
+						<!-- 	<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+							<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script> -->
+							<!--//pop-up-box -->
+							<!-- <div id="small-dialog" class="mfp-hide">
+								<iframe src="https://player.vimeo.com/video/40443925?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</div>
+							<script>
+								$(document).ready(function() {
+								$('.popup-with-zoom-anim').magnificPopup({
+									type: 'inline',
+									fixedContentPos: false,
+									fixedBgPos: true,
+									overflowY: 'auto',
+									closeBtnInside: true,
+									preloader: false,
+									midClick: true,
+									removalDelay: 300,
+									mainClass: 'my-mfp-zoom-in'
+								});
+																								
+								});
+							</script>
 						</div>
+						<div class="clearfix"> </div>
 					</div>
 				</div>
-				<div class="col-md-4 events-grid">
-					<div class="cal">
-						<img src="images/1.png" alt=" " class="img-responsive" />
-						<div class="cal-info">
-							<h4>molestiae consequatur</h4>
-							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-								voluptas nulla pariatur</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="events-grids1">
-				<div class="col-md-4 events-grid1">
-					<div class="events-grid11">
-						<span>01.</span>
-						<div class="events-grid11-info">
-							<h4><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><label>28 August 2015</label>molestiae consequatur</h4>
-							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-								voluptas nulla pariatur</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 events-grid1">
-					<div class="events-grid11">
-						<span>02.</span>
-						<div class="events-grid11-info">
-							<h4><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><label>28 August 2015</label>molestiae consequatur</h4>
-							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-								voluptas nulla pariatur</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 events-grid1">
-					<div class="events-grid11">
-						<span>03.</span>
-						<div class="events-grid11-info">
-							<h4><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><label>28 August 2015</label>molestiae consequatur</h4>
-							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-								quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo 
-								voluptas nulla pariatur</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> -->
-<!-- //events -->
-<!-- portfolio -->
-	<div id="portfolio" class="gallery">
-	<div class="container">
-		<h3>VIDEOS</h3>
-		<div class="gallery-grids">
-			<div class="col-md-6 baner-top">
-				<h2>Lexi Belle</h2>
-          <iframe width="350" height="200" src="http://www.porntube.com/embed/1093932" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Faye Reagan</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7140573" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>18 yr old blonde teen</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7160482" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Brooke Lee Adams</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7084278" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Luscious Lopez</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1386639" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Rebecca Linares</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7083313" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Brunette in stockings</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1207658" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Bunny Freedom</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7125486" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Russian Creampie</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7083164" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Russian Blonde Teen</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7093197" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Mia Khalifa</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7118803" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Nadia Ali Threesome</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7127714" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Japanese Teen</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7114667" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Blonde Babysitter</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7094056" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Babysitter Adrian</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7072727" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Kagney Linn Karter</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1221983" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Donna Bell</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1378570" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Oily Creampie</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1345131" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>AJ Applegate</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7142050" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Illegal latina</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7127582" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Schoolgirl Brooke</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7079471" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Noelle Easton</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7152252" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Isis Taylor</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7078108" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Lizzy London</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7075661" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Mandy Sky</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1227091" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Eve Evans</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7078326" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Sara Monroe</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7076973" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Katie Summers</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/7080882" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Nikita Bulgaria</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1410592" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Rough Sex</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1284377" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-6 baner-top">
-				<h2>Jayden Jaymes</h2>
-         <iframe width="350" height="200" src="http://www.porntube.com/embed/1277508" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-
-			<!-- <div class="clearfix"> </div> -->
-			<!-- <div class="baner-row">
-				<div class="col-md-4 baner-bottom">
-					<figure class="effect-bubba">
-						<a href="images/6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/6.jpg" alt="" class="img-responsive" />
-							<figcaption>
-								<h4 class="sec">Enimet pulvinar</h4>
-								<p>In sit amet sapien eros Integer dolore magna</p>	
-							</figcaption>
-						</a>
-					</figure>	
-				</div>
-				<div class="col-md-4 baner-bottom">
-					<figure class="effect-bubba">
-						<a href="images/7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/7.jpg" alt=""/ class="img-responsive" >
-							<figcaption>
-								<h4 class="sec">Enimet pulvinar</h4>
-								<p>In sit amet sapien eros Integer dolore magna</p>	
-							</figcaption>	
-						</a>
-					</figure>	
-				</div>
-				<div class="col-md-4 baner-bottom">
-					<figure class="effect-bubba">
-						<a href="images/8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/8.jpg" alt=""/ class="img-responsive" >
-							<figcaption>
-								<h4 class="sec">Enimet pulvinar</h4>
-								<p>In sit amet sapien eros Integer dolore magna</p>	
-							</figcaption>	
-						</a>
-					</figure>	
-				</div>
-				<div class="clearfix"> </div>
-			</div>		
-			<div class="col-md-6 baner-top">
-				<figure class="effect-bubba">
-					<a href="images/5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/5.jpg" alt="" class="img-responsive" />
-						<figcaption>
-							<h4>Enimet pulvinar posuere</h4>
-							<p>In sit amet sapien eros Integer dolore magna aliqua</p>	
-						</figcaption>	
-					</a>
-				</figure>	
-			</div>
-			<div class="col-md-6 baner-top">
-				<figure class="effect-bubba">
-					<a href="images/4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/4.jpg" alt="" class="img-responsive" />
-						<figcaption>
-							<h4>Enimet pulvinar posuere</h4>
-							<p>In sit amet sapien eros Integer dolore magna aliqua</p>	
-						</figcaption>	
-					</a>
-				</figure>	
 			</div> -->
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	</div>
-<!-- //portfolio -->
-<!-- map -->
-	<div id="mail" class="map">
-		<iframe src="http://www.porntube.com/embed/7078326" frameborder="0" style="border:0" allowfullscreen></iframe>
-		<div class="map-color">
-		</div>
-	<div class="container">
-		<div class="map-grids">
-			<!-- <div class="col-md-3 contact-left">
-				<h3>Address</h3>
-				<p>est eligendi optio cumque nihil impedit quo minus id quod maxime
-					<span>26 56D Rescue,US</span></p>
-				<ul>
-					<li>Free Phone :+1 078 4589 2456</li>
-					<li>Telephone :+1 078 4589 2456</li>
-					<li>Fax :+1 078 4589 2456</li>
-					<li><a href="mailto:info@example.com">info@example.com</a></li>
-				</ul>
-			</div>
-			<div class="col-md-9 contact-left">
-				<h3>Contact Form</h3>
-				<div class="line minus1"> 
+<!-- //about -->
+<!-- about-bottom -->
+			<!-- <div class="about-bottom">
+				<div class="about-bottom-grid">
+					<h3>To take a trivial example, which of us ever undertakes laborious
+						physical exercise.</h3>
 				</div>
-				<form>
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
-					<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<input type="submit" value="Submit" >
-				</form> -->
+			</div> -->
+<!-- //about-bottom -->
+<!-- news -->
+			<!-- <div id="news" class="news">
+				<h3>News</h3>
+				<div class="line">
+				</div>
+				<p class="exercise">To take a trivial example, which of us ever undertakes laborious
+					physical exercise.</p>
+				<div class="news-grids">
+					<div class="col-md-5 news-grid">
+						<div class="news-grd">
+							<img src="images/5.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="news-grd-text">
+							<p class="date">25 August 2015</p>
+							<h4>magnam aliquam quaerat</h4>
+							<p class="children">Neque porro quisquam est, qui dolorem ipsum quia 
+								dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
+								modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+								suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+							<div class="play">
+								<a href="#">Read More</a>
+							</div>
+							<div class="edit">
+								<p><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Construction</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 news-grid">
+						<div class="news-income">
+							<div class="news-grid-left">
+								<img class="steel img-responsive" src="images/6.jpg" alt=" "/>
+							</div>
+							<div class="news-grid-right">
+								<div class="news-grd-text1">
+									<p class="date">01 December 2014</p>
+									<h4>aliquid ex ea commodi</h4>
+									<p class="children">Exercitationem ullam corporis
+										suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur 
+										ullam corporis aliquid.</p>
+									<div class="play">
+										<a href="#">Read More</a>
+									</div>
+									<div class="edit">
+										<p><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Litoon Dev</p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="news-income">
+							<div class="news-grid-left">
+								<img class="steel img-responsive" src="images/7.jpg" alt=" " />
+							</div>
+							<div class="news-grid-right">
+								<div class="news-grd-text1">
+									<p class="date">01 November 2014</p>
+									<h4>aliquid ex ea commodi</h4>
+									<p class="children">Exercitationem ullam corporis
+										suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur 
+										ullam corporis aliquid.</p>
+									<div class="play">
+										<a href="#">Read More</a>
+									</div>
+									<div class="edit">
+										<p><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Johnson Ray</p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div> -->
+<!-- //news -->
+<!-- gallery -->
+			<div id="gallery" class="gallery">
+				<h3>VIDEOS</h3>
+				<div class="line">
+				</div>
+				<!-- <p class="exercise">To take a trivial example, which of us ever undertakes laborious
+					physical exercise.</p> -->
+				<div class="gallery-grids">
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Lexi Belle</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1093932" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Faye Reagan</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7140573" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>18 yr old blonde teen</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7160482" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Brooke Lee Adams</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7084278" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Luscious Lopez</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1386639" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Rebecca Linares</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7083313" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Brunette in stockings</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1207658" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Bunny Freedom</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7125486" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Russian Creampie</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7083164" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Russian Blonde Teen</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7093197" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Mia Khalifa</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7118803" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Nadia Ali Threesome</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7127714" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Japanese Teen</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7114667" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Blonde Babysitter</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7094056" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Babysitter Adrian</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7072727" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Kagney Linn Karter</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1221983" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Donna Bell</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1378570" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Oily Creampie</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1345131" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>AJ Applegate</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7142050" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Illegal latina</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7127582" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Schoolgirl Brooke</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7079471" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Noelle Easton</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7152252" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Isis Taylor</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7078108" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Lizzy London</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7075661" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Mandy Sky</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1227091" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Eve Evans</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7078326" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Sara Monroe</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7076973" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Katie Summers</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/7080882" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Nikita Bulgaria</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1410592" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Rough Sex</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1284377" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<div class="col-md-6 baner-top">
+						<figcaption>
+							<h4>Jayden Jaymes</h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="http://www.porntube.com/embed/1277508" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div>
+
+					<!-- <div class="col-md-6 baner-top">
+						<figcaption>
+							<h4></h4>	
+						</figcaption>	
+            <iframe width="450" height="250" src="" alt="" class="img-responsive" frameborder="0" allowfullscreen></iframe>		
+					</div> -->
+
+					<div class="clearfix"> </div>
+				</div>
 			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- footer -->
-		<!-- <div class="footer">
-			<div class="icons">	
-				<ul>
-					<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><img src="images/i1.png" alt=""/></a></li>
-					<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><img src="images/i2.png" alt=""/> </a></li>
-					<li><a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><img src="images/i3.png" alt=""/></a></li>
-					<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><img src="images/i4.png" alt=""/> </a></li>
-					<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><img src="images/i5.png" alt=""/> </a></li>
-				</ul>
-				<script>$(function () {
-				  $('[data-toggle="tooltip"]').tooltip()
-				})</script>
+<!-- //gallery -->
+<!-- mail -->
+			<!-- <div id="mail" class="mail">
+				<h3>Mail Us</h3>
+				<div class="line">
+				</div>
+				<p class="exercise">To take a trivial example, which of us ever undertakes laborious
+					physical exercise.</p>
+				<div class="contact-grid">
+					<div class="col-md-4 contact-left">
+						<h4>Address</h4>
+						<p>est eligendi optio cumque nihil impedit quo minus id quod maxime
+							<span>26 56D Rescue,US</span></p>
+						<ul>
+							<li>Free Phone :+1 078 4589 2456</li>
+							<li>Telephone :+1 078 4589 2456</li>
+							<li>Fax :+1 078 4589 2456</li>
+							<li><a href="mailto:info@example.com">info@example.com</a></li>
+						</ul>
+					</div>
+					<div class="col-md-8 contact-left">
+						<h4>Contact Form</h4>
+						<form>
+							<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+							<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+							<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+							<input type="submit" value="Submit" >
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div> -->
+<!-- //mail -->
+<!-- footer -->
+			<div class="footer">
+				<div class="footer-left">
+					<!-- <div class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99362.47205895327!2d-77.01456655!3d38.8993487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C+DC%2C+USA!5e0!3m2!1sen!2sin!4v1427716677381" frameborder="0" style="border:0"></iframe>
+					</div> -->
+					<!-- <div class="map-color">
+						<ul>
+								<li class="dot"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>BD 2 Mars, N° 136, Morocco Casablanca</li>
+								<li class="mobile"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+212 522 275 386</li>
+								<li class="mes"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="#">Example.com</a></li>
+						</ul>
+					</div> -->
+					<p>© 2015 Builder. All Rights Reserved | Design by<a href="http://w3layouts.com/"> W3layouts</a></p>
+				</div>
+				<!-- <div class="footer-right">
+					<h4>Newsletter</h4>
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece.</p>
+					<form>
+						<input type="text" placeholder=" " required=" ">
+						<input type="submit" value=" ">
+					</form>
+					<h5>Follow Us</h5>
+					<ul>
+						<li><a href="#" class="twitter"></a></li>
+						<li><a href="#" class="g"></a></li>
+						<li><a href="#" class="v"></a></li>
+					</ul>
+				</div> -->
+				<div class="clearfix"> </div>
 			</div>
-			<p>© 2015 Dazzly . All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>					
-		</div> -->
-		<!-- //footer -->
+<!-- //footer -->
+<!-- footer-logo -->
+			<div class="footer-logo">
+				<a href="index.html">Fappy.tk<span>Don't Worry Be Happy</span></a>
+			</div>
+<!-- //footer-logo -->
 		</div>
 	</div>
-<!-- //map -->
- <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+<!-- //pattern -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
