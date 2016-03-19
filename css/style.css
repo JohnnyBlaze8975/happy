@@ -876,7 +876,7 @@ figure.effect-bubba:hover p {
 		padding: 2em 0;
 	}
 	.banner1 {
-		background: url(../images/1.jpg) no-repeat 0px 0px;
+		background: url(../images/1.gif) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -884,7 +884,7 @@ figure.effect-bubba:hover p {
 		-ms-background-size: cover;
 	}
 	.banner2 {
-		background: url(../images/2.jpg) no-repeat 0px 0px;
+		background: url(../images/2.gif) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -892,7 +892,7 @@ figure.effect-bubba:hover p {
 		-ms-background-size: cover;
 	}
 	.banner3 {
-		background: url(../images/3.jpg) no-repeat 0px 0px;
+		background: url(../images/3.gif) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1515,7 +1515,7 @@ figure.effect-bubba:hover p {
 		font-size: 12px;
 	}
 	.banner1 {
-		background: url(../images/1.jpg) no-repeat -90px 0px;
+		background: url(../images/1.gif) no-repeat -90px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1523,7 +1523,7 @@ figure.effect-bubba:hover p {
 		-ms-background-size: cover;
 	}
 	.banner2 {
-		background: url(../images/2.jpg) no-repeat -90px 0px;
+		background: url(../images/2.gif) no-repeat -90px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1531,7 +1531,7 @@ figure.effect-bubba:hover p {
 		-ms-background-size: cover;
 	}
 	.banner3{
-		background: url(../images/3.jpg) no-repeat -90px 0px;
+		background: url(../images/3.gif) no-repeat -90px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
